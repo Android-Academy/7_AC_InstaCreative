@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "layers": {
+    "vectorLayer": {
+      "id": "38",
+      "name": "instagram_like_1",
+      "type": "vector",
+      "width": 416,
+      "height": 400,
+      "children": [
+        {
+          "id": "39",
+          "name": "group",
+          "type": "group",
+          "pivotX": 215,
+          "pivotY": 215,
+          "children": [
+            {
+              "id": "36",
+              "name": "path",
+              "type": "path",
+              "pathData": "M 304 0 L 303 0 C 263.3 0 228.2 21 208 52 C 187.8 21 152.7 0 113 0 L 112 0 C 82.22 0.279 53.724 12.313 32.76 33.465 C 11.795 54.617 0.014 83.219 0 113 C 0 150 16.2 202.5 47.8 245.7 C 108 328 208 400 208 400 C 208 400 308 328 368.2 245.7 C 399.8 202.5 416 150 416 113 C 415.986 83.219 404.205 54.617 383.24 33.465 C 362.276 12.313 333.78 0.279 304 0 Z",
+              "fillColor": "#000",
+              "strokeWidth": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hiddenLayerIds": []
+  },
+  "timeline": {
+    "animation": {
+      "id": "2",
+      "name": "anim",
+      "duration": 800,
+      "blocks": [
+        {
+          "id": "40",
+          "layerId": "39",
+          "propertyName": "scaleX",
+          "startTime": 0,
+          "endTime": 400,
+          "interpolator": "OVERSHOOT",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 0.85
+        },
+        {
+          "id": "41",
+          "layerId": "39",
+          "propertyName": "scaleY",
+          "startTime": 0,
+          "endTime": 400,
+          "interpolator": "OVERSHOOT",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 0.85
+        },
+        {
+          "id": "43",
+          "layerId": "36",
+          "propertyName": "fillAlpha",
+          "startTime": 0,
+          "endTime": 50,
+          "interpolator": "ACCELERATE",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 1
+        },
+        {
+          "id": "55",
+          "layerId": "39",
+          "propertyName": "scaleX",
+          "startTime": 600,
+          "endTime": 800,
+          "interpolator": "ACCELERATE",
+          "type": "number",
+          "fromValue": 0.85,
+          "toValue": 0
+        },
+        {
+          "id": "56",
+          "layerId": "39",
+          "propertyName": "scaleY",
+          "startTime": 600,
+          "endTime": 800,
+          "interpolator": "ACCELERATE",
+          "type": "number",
+          "fromValue": 0.85,
+          "toValue": 0
+        },
+        {
+          "id": "57",
+          "layerId": "36",
+          "propertyName": "fillAlpha",
+          "startTime": 750,
+          "endTime": 800,
+          "interpolator": "ACCELERATE",
+          "type": "number",
+          "fromValue": 1,
+          "toValue": 0
+        }
+      ]
+    }
+  }
+}

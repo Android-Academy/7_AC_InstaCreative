@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "3699120022",
+    "project_id": "instacreative-adcd2",
+    "storage_bucket": "instacreative-adcd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3699120022:android:706710cda7bd38f604afb7",
+        "android_client_info": {
+          "package_name": "com.vullnetlimani.instacreative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3699120022-18lprjtr0uqcr1gj4shrci3vmm6qlevb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vullnetlimani.instacreative",
+            "certificate_hash": "1cc7c34636eeb784839bab8b0138c66b36270c80"
+          }
+        },
+        {
+          "client_id": "3699120022-oumqmej8ff5k9rp2k6d1jt67hcltrq26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBkWLRW0yqyKIhA03oLCIHi_DmSlsCN-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3699120022-oumqmej8ff5k9rp2k6d1jt67hcltrq26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
