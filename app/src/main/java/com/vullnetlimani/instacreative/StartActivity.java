@@ -28,6 +28,7 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         iconImage = findViewById(R.id.icon_image);
+        iconImage.setColorFilter(getResources().getColor(R.color.primary));
         buttonLinearLayout = findViewById(R.id.button_layout);
         login = findViewById(R.id.login);
         register = findViewById(R.id.register);

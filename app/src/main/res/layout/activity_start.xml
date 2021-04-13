@@ -10,7 +10,7 @@
         android:id="@+id/icon_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_instagram"
+        android:src="@drawable/ic_insta_icon_vector"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
